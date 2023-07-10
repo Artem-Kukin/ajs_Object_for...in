@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/pcghsw9v467uo70y?svg=true)](https://ci.appveyor.com/project/Artem-Kukin/ajs-object-for-in)
