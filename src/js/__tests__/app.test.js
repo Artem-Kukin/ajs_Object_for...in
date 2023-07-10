@@ -1,8 +1,12 @@
 import orderByProps from '../app';
 
-test(`function 'orderByProps' should sort`, () => {
+test('function "orderByProps" should sort', () => {
   const inputObject = {
-    name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
+    name: 'мечник',
+    health: 10,
+    level: 2,
+    attack: 80,
+    defence: 40,
   };
   const inputOrder = ['name', 'level'];
   const expected = [
@@ -16,9 +20,13 @@ test(`function 'orderByProps' should sort`, () => {
   expect(received).toEqual(expected);
 });
 
-test(`function 'orderByProps' should sort`, () => {
+test('function "orderByProps" should sort', () => {
   const inputObject = {
-    name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
+    name: 'мечник',
+    health: 10,
+    level: 2,
+    attack: 80,
+    defence: 40,
   };
   const inputOrder = ['name', 'level', 'health', 'defence', 'attack'];
   const expected = [
@@ -32,9 +40,13 @@ test(`function 'orderByProps' should sort`, () => {
   expect(received).toEqual(expected);
 });
 
-test(`function 'orderByProps' should throw error`, () => {
+test('function "orderByProps" should throw error', () => {
   const inputObject = {
-    name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
+    name: 'мечник',
+    health: 10,
+    level: 2,
+    attack: 80,
+    defence: 40,
   };
   const inputOrder = ['blah-blah', 'level', 'health', 'defence', 'attack'];
   expect(() => {
